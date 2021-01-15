@@ -1,9 +1,24 @@
 {
-  "posts": [
+  "mystartscreen": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": 3050,
+      "depth1Code": "001",
+      "serviceID": "3050"
+    },
+    {
+      "id": 3090,
+      "depth1Code": "002",
+      "serviceID": "3090"
     }
+  ],
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
     "name": "typicode"
